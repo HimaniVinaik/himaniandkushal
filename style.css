@@ -108,3 +108,53 @@ header li{
   margin-bottom: 10px;
 }
 
+
+.Intro {
+ text-align: center;
+ min-height: 100px;
+ min-width: 100px;
+ padding-top: 50px;
+ padding-bottom: 10px;
+ background-image: linear-gradient(to right, white,lightgray, darkgray);
+ background-size: 300%;
+ background-position: left;
+ transition: background-position 1s;
+ color: #ffffff; 
+}
+
+.Intro:hover, .Intro focus {
+  background-position: right;
+}
+
+
+
+.Intro img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  animation: transitionIN 3s;
+}
+
+.Intro h1{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Intro h2{
+  color: black;
+  font-size: 20px;
+}
+
+.Intro h3{
+  color: black;
+  font-size: 15px;
+  align-content: center;
+}
+
+.Intro p{
+  color: black; 
+  font-size: 13px;
+   display: block;
+
+}
